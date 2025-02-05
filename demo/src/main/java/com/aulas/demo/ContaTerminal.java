@@ -24,7 +24,7 @@ public class ContaTerminal {
         }
 
         System.out.print("Pf, fala o saldo bixo: ");
-        int saldo = scanner.nextInt();
+        double saldo = scanner.nextDouble();
         DecimalFormat df = new DecimalFormat("#,##0.00");
         System.out.println("\nOlá "+ nomeCliente+", vlw ta criado a conta."+ " A agencia é "+ agencia+ ", conta "+ numero+ " e o seu saldo é R$" +df.format(saldo)+ " disponivel para saque.");
 
