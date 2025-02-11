@@ -9,7 +9,7 @@ public class Main {
 
         manager.setName("Joao");
         manager.setLogin("joaoz");
-        manager.setPassword("123456");
+        manager.setPassword("12345556");
 
         System.out.println(manager.getName());
         System.out.println(manager.getLogin());
