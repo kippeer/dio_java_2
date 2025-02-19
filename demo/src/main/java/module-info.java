@@ -6,4 +6,6 @@ module com.aulas.demo {
 
     opens com.aulas.demo to javafx.fxml;
     exports com.aulas.demo;
+    exports com.aulas.demo.interfaces;
+    opens com.aulas.demo.interfaces to javafx.fxml;
 }
